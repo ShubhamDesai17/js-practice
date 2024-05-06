@@ -15,8 +15,6 @@ for i in range(len(data)):
 print(pr_creators)
 
 dict=pr_creators
-for key, value in dict.items():
-    print(key, value)
 
 for creator, count in pr_creators.items():
     print(f"{creator}:{count} pull requests")
